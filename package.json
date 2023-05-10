@@ -4,6 +4,8 @@
   "description": "SnehUrja server",
   "main": "app.js",
   "scripts": {
+    "build": "tsc --project tsconfig.json && tsc-alias -p tsconfig.json",
+    "start": "node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
